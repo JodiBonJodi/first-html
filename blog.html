@@ -5,45 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog!!</title>
-
-    <style>
-            .puppies {
-                color: blue;
-                text-align: center;
-                border: dotted 2px blue;
-            }
-            .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-                border: solid 3px pink;
-            }
-            h2 {
-                text-align: center;
-                color: red;
-                background-color: pink;
-                padding-top: 50px;
-                padding-right: 30px;
-                padding-bottom: 50px;
-                padding-left: 30px;
-            }
-            p {
-                font-size: 15px;
-            }
-            #weens {
-                color: brown;
-            }
-                   
-            }
-        </style>
-    
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
     
     <header>
         <h1>Welcome to my blog!!</h1>
-        <img src="https://placedog.net/300/200">
+        <img class="center" src="https://placedog.net/300/200">
     </header>
 <br>
     <hr>
@@ -65,9 +34,15 @@
                 <li>Weens</li>
                 <li>Corgs</li>
                 <li>Pugs</li>
-                <li>pits</li>
+                <li>Pits</li>
             </ul>
 
+            <button class="center" onclick="showAlert()">Click Me!</button>
+            
+         
+            Search: <input oninput="logHello()">
+            
+            
             <hr>
 
             <aside class='puppies'>

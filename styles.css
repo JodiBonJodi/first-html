@@ -1,0 +1,30 @@
+.puppies {
+    color: green;
+    text-align: center;
+    border: dotted 2px blue;
+} 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 3px pink;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: red;
+    background-color: pink;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+p {
+    font-size: 15px;
+}
+#weens {
+    color: brown;
+}
